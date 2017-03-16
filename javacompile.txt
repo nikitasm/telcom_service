@@ -1,0 +1,3 @@
+cd C:\tomcat\webapps\Tel_comp\WEB-INF\classes  
+
+javac -cp .;"C:\tomcat\lib\servlet-api.jar" Company.java

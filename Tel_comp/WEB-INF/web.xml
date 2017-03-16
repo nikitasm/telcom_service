@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  
+  <!-- orizetai to display name kai to servlet name ka8ws epishs kai to package.Class gia na ginei h sundesh me to servlet-->
+  <servlet>
+    <servlet-name>Company</servlet-name>
+    <servlet-class>Company</servlet-class>
+  </servlet>
+  
+  <!-- ginetai h sundesh apo to website.html sundeomaste sto companypath kai apo to company sundeomaste sto servlet Company-->
+  <servlet-mapping>
+    <servlet-name>Company</servlet-name>
+    <url-pattern>/Companypath</url-pattern>
+  </servlet-mapping>
+</web-app>
